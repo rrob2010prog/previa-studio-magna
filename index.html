@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pré-projeto · Studio Magna Nail Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--preto:#1b1418;--rose:#c9577a;--rose-2:#e88aa6;--rose-claro:#fbe8ee;--fundo:#fbf6f7;--papel:#fff;--texto:#261c21;--suave:#6f5d65;--linha:#eedde3;--verde:#1f9d55}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Nunito,system-ui,sans-serif;background:var(--fundo);color:var(--texto);line-height:1.55}
+  .capa{background:radial-gradient(circle at 50% -20%,#4a2232,var(--preto) 70%);color:#fff;padding:46px 20px 42px;text-align:center}
+  .capa small{color:var(--rose-2);font-weight:800;letter-spacing:.12em;font-size:12px;text-transform:uppercase}
+  .capa h1{font-family:"Playfair Display",serif;font-size:clamp(30px,8vw,46px);line-height:1.15;margin:10px 0}
+  .capa h1 em{color:var(--rose-2)}
+  .capa p{max-width:560px;margin:0 auto;opacity:.88}
+  main{max-width:760px;margin:0 auto;padding:0 16px 40px}
+  section{margin-top:34px}
+  h2{font-family:"Playfair Display",serif;font-size:26px;line-height:1.2;margin-bottom:12px}
+  h2 em{color:var(--rose)}
+  .grade{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+  .card{background:var(--papel);border:1px solid var(--linha);border-radius:16px;padding:16px}
+  .card h3{font-size:16px;margin-bottom:4px}
+  .card p{color:var(--suave);font-size:14.5px}
+  .bom .card{border-left:4px solid var(--verde)}
+  .dor .card{border-left:4px solid var(--rose)}
+  .modulo{background:var(--papel);border:1px solid var(--linha);border-radius:18px;padding:18px;margin-bottom:12px}
+  .modulo.opc{border-style:dashed}
+  .modulo h3{font-size:18px;display:flex;align-items:center;gap:8px}
+  .num{display:inline-flex;flex:none;width:28px;height:28px;border-radius:50%;background:var(--preto);color:var(--rose-2);font-weight:800;font-size:13px;align-items:center;justify-content:center}
+  .modulo ul{margin:10px 0 0 20px;color:var(--suave);font-size:14.5px}
+  .modulo li{margin-bottom:4px}
+  .ganho{margin-top:10px;background:var(--rose-claro);color:#7a2d47;border-radius:10px;padding:8px 12px;font-size:14px;font-weight:700}
+  .antes-depois{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .antes-depois div{border-radius:14px;padding:14px;font-size:14px}
+  .antes{background:#f4e6ea}.depois{background:#eef8f1}
+  .antes b,.depois b{display:block;margin-bottom:6px;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+  .passos{counter-reset:p;list-style:none}
+  .passos li{counter-increment:p;position:relative;padding:0 0 16px 44px}
+  .passos li:before{content:counter(p);position:absolute;left:0;top:0;width:30px;height:30px;border-radius:50%;background:var(--preto);color:var(--rose-2);font-weight:800;display:flex;align-items:center;justify-content:center}
+  .passos b{display:block}.passos span{color:var(--suave);font-size:14.5px}
+  .btn{display:inline-block;background:var(--rose);color:#fff;text-decoration:none;font-weight:800;border-radius:14px;padding:14px 20px;margin:4px}
+  .btn.verde{background:var(--verde)}
+  .cta{background:var(--preto);color:#fff;border-radius:20px;padding:24px;text-align:center;margin-top:34px}
+  .cta h2{color:#fff}.cta h2 em{color:var(--rose-2)}
+  .cta p{opacity:.88;max-width:520px;margin:0 auto 16px}
+  footer{text-align:center;color:var(--suave);font-size:13px;padding:24px 16px 40px}
+  @media (max-width:520px){.antes-depois{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="capa">
+  <small>Pré-projeto · Lumina Serviços Digitais</small>
+  <h1>A agenda do Studio Magna<br><em>cheia e garantida</em></h1>
+  <p>Uma proposta para a cliente marcar sozinha, pagar o sinal na hora e voltar na manutenção certa, enquanto a Meg
+  recebe o aviso no WhatsApp e foca no que faz de melhor: as unhas.</p>
+</div>
+
+<main>
+  <section class="bom">
+    <h2>O que o Studio Magna <em>já tem de forte</em></h2>
+    <div class="grade">
+      <div class="card"><h3>Público grande</h3><p>Mais de 8 mil seguidoras no Instagram, com mais de 2 mil trabalhos postados.</p></div>
+      <div class="card"><h3>Especialidade clara</h3><p>Acrílico, banho de gel e de acrílico, esmaltação em gel, manutenção e pés.</p></div>
+      <div class="card"><h3>Cliente que volta</h3><p>A manutenção a cada 30 a 40 dias traz a mesma cliente o ano inteiro.</p></div>
+      <div class="card"><h3>Portfólio pronto</h3><p>Os próprios posts já mostram a qualidade do trabalho.</p></div>
+    </div>
+  </section>
+
+  <section class="dor">
+    <h2>Onde o Studio <em>está perdendo horário</em></h2>
+    <div class="grade">
+      <div class="card"><h3>O link de agendamento não agenda</h3><p>O "Agendamento" da bio abre uma página só com o nome do estúdio. Quem clica para marcar não consegue.</p></div>
+      <div class="card"><h3>Tudo na conversa</h3><p>Marcar pelo WhatsApp e pelo Instagram é ida e volta, muitas vezes no meio de um atendimento.</p></div>
+      <div class="card"><h3>Falta sem aviso</h3><p>Sem sinal, uma falta deixa o horário vazio e ninguém paga por ele.</p></div>
+      <div class="card"><h3>Sem aviso na hora</h3><p>A marcação nova fica perdida no meio das mensagens.</p></div>
+      <div class="card"><h3>Manutenção esquecida</h3><p>Sem lembrete, a cliente passa do prazo ou vai para outro lugar.</p></div>
+      <div class="card"><h3>Não aparece no Google</h3><p>Quem procura "unhas de acrílico no Paranoá" não encontra o Studio Magna.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>A proposta: <em>Agenda com sinal</em></h2>
+
+    <div class="modulo">
+      <h3><span class="num">1</span>Agenda online com sinal no ato</h3>
+      <ul>
+        <li>A cliente escolhe o serviço, o dia e um horário livre, direto no celular.</li>
+        <li>Paga o sinal por Pix e o horário fica garantido; o sinal é descontado no dia.</li>
+        <li>Regras de remarcação e de falta claras na tela, do jeito que a Meg definir.</li>
+        <li>A Meg recebe o aviso no WhatsApp a cada marcação, com nome, serviço e horário.</li>
+        <li>Abre como um aplicativo na tela do celular, sem precisar de loja de apps.</li>
+      </ul>
+      <div class="ganho">Menos mensagem, menos falta e horário pago antes.</div>
+    </div>
+
+    <div class="modulo">
+      <h3><span class="num">2</span>Lembretes automáticos</h3>
+      <ul>
+        <li>Lembrete na véspera do horário, para a cliente não esquecer.</li>
+        <li>Lembrete da manutenção, 30 dias depois do atendimento, com o link para marcar.</li>
+        <li>Só para quem aceitar receber, com opção de sair a qualquer momento.</li>
+      </ul>
+      <div class="ganho">A cliente volta no tempo certo, sem a Meg precisar chamar uma por uma.</div>
+    </div>
+
+    <div class="modulo">
+      <h3><span class="num">3</span>Google Meu Negócio</h3>
+      <ul>
+        <li>Criação da ficha do Studio Magna na Av. Paranoá, Quadra 18.</li>
+        <li>Fotos dos trabalhos, serviços, horário e botão "Agendar" ligado à agenda.</li>
+        <li>Pedido de avaliação depois do atendimento, para a ficha ganhar estrelas.</li>
+      </ul>
+      <div class="ganho">Clientes novas da região encontram o estúdio e já marcam.</div>
+    </div>
+
+    <div class="modulo">
+      <h3><span class="num">4</span>Instagram que agenda</h3>
+      <ul>
+        <li>O link da bio passa a abrir a agenda de verdade.</li>
+        <li>Destaques com serviços e cuidados, e posts com o convite para marcar.</li>
+      </ul>
+    </div>
+
+    <div class="modulo opc">
+      <h3><span class="num">5</span>Atendimento automático no WhatsApp (opcional)</h3>
+      <ul>
+        <li>Responde na hora as dúvidas mais comuns (serviços, endereço, forma de pagamento) e manda o link da agenda.</li>
+        <li>Passa para a Meg quando é algo especial.</li>
+      </ul>
+    </div>
+
+    <div class="modulo opc">
+      <h3><span class="num">6</span>Para crescer depois (opcional)</h3>
+      <ul>
+        <li>Anúncios no Instagram para mulheres do Paranoá e arredores, levando direto para a agenda.</li>
+        <li>Fotos dos trabalhos tratadas para o Google e para os anúncios.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Como fica <em>na prática</em></h2>
+    <div class="antes-depois">
+      <div class="antes"><b>Hoje</b>A cliente chama, pergunta o horário, espera a resposta, combina, às vezes falta, e a Meg precisa lembrar de chamar para a manutenção.</div>
+      <div class="depois"><b>Com o projeto</b>A cliente abre o link, escolhe o horário, paga o sinal e recebe o lembrete. A Meg só recebe o aviso no WhatsApp.</div>
+    </div>
+    <p style="margin-top:14px">Já montamos um exemplo da agenda com o Studio Magna. Faça uma marcação de teste:</p>
+    <p style="text-align:center;margin-top:10px"><a class="btn" href="previa/">Ver a prévia da agenda</a></p>
+  </section>
+
+  <section>
+    <h2>Como a gente <em>trabalha</em></h2>
+    <ol class="passos">
+      <li><b>Conversa rápida (15 minutos)</b><span>Definimos os serviços, durações, valor do sinal e as regras de falta.</span></li>
+      <li><b>Agenda no ar</b><span>A prévia vira a agenda do estúdio, com os horários reais.</span></li>
+      <li><b>Google e Instagram</b><span>Ficha do Google criada e link da bio trocado.</span></li>
+      <li><b>Acompanhamento</b><span>Ajustes de horário e de serviço pelo WhatsApp, sem nada técnico para a Meg.</span></li>
+    </ol>
+  </section>
+
+  <div class="cta">
+    <h2>Próximo <em>passo</em></h2>
+    <p>Uma conversa de 15 minutos, por ligação ou vídeo, no horário que for melhor para você. O investimento é
+    apresentado nessa conversa, de acordo com o que fizer sentido para o Studio Magna.</p>
+    <a class="btn verde" href="https://wa.me/5511954746914?text=Oi%20Robinson%2C%20vi%20o%20pr%C3%A9-projeto%20do%20Studio%20Magna" target="_blank" rel="noopener">Marcar a conversa</a>
+  </div>
+</main>
+
+<footer>Pré-projeto preparado por Robinson · Lumina Serviços Digitais · novembro de 2026<br>
+Documento de apresentação. Nada foi publicado em nome do Studio Magna.</footer>
+</body>
+</html>
